@@ -1,4 +1,4 @@
-﻿Log file open, 02/15/18 18:02:04
+﻿Log file open, 02/15/18 19:56:34
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: PandaProject
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-362157696) SRandInit(-362157696).
+LogInit: Display: RandInit(-1310283799) SRandInit(-1310283799).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.173402
+LogStats: Stats thread started at 0.171763
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -196,526 +196,440 @@ LogInit: Base directory: H:/Unreal/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.02.15-07.32.06:126][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.15-07.32.06:126][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.15-07.32.06:141][  0]LogInit: Computer: DESKTOP-1E6CSM8
-[2018.02.15-07.32.06:141][  0]LogInit: User: Josias
-[2018.02.15-07.32.06:141][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.02.15-07.32.06:141][  0]LogInit: High frequency timer resolution =3.613248 MHz
-[2018.02.15-07.32.06:142][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.02.15-07.32.06:142][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.15-07.32.06:142][  0]LogMemory: Process Physical Memory: 275.73 MB used, 275.73 MB peak
-[2018.02.15-07.32.06:142][  0]LogMemory: Process Virtual Memory: 276.87 MB used, 276.87 MB peak
-[2018.02.15-07.32.06:142][  0]LogMemory: Physical Memory: 6196.24 MB used,  10139.62 MB free, 16335.86 MB total
-[2018.02.15-07.32.06:142][  0]LogMemory: Virtual Memory: 684.98 MB used,  10139.62 MB free, 134217728.00 MB total
-[2018.02.15-07.32.06:275][  0]LogInit: Using OS detected language (en-US).
-[2018.02.15-07.32.06:275][  0]LogInit: Using OS detected locale (en-US).
-[2018.02.15-07.32.06:278][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.02.15-07.32.06:922][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.15-07.32.06:966][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2018.02.15-07.32.06:966][  0]LogD3D11RHI:       8086/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.02.15-07.32.06:968][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.15-07.32.06:968][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.15-07.32.06:968][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.15-07.32.06:974][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.15-07.32.06:974][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2018.02.15-07.32.06:974][  0]LogWindows: EnumDisplayDevices:
-[2018.02.15-07.32.06:974][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2018.02.15-07.32.06:974][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.02.15-07.32.06:974][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.02.15-07.32.06:975][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.02.15-07.32.06:975][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.02.15-07.32.06:975][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2018.02.15-07.32.06:975][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.02.15-07.32.06:975][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.02.15-07.32.06:975][  0]LogRHI: Texture pool is 5660 MB (70% of 8086 MB)
-[2018.02.15-07.32.07:009][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.15-07.32.07:056][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.02.15-07.32.07:103][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../PandaProject/PandaProject/Intermediate/Shaders/WorkingDirectory/2356/).
-[2018.02.15-07.32.07:103][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Josias/AppData/Local/Temp/UnrealShaderWorkingDir/E9FD746A42D0780DA2CCFA9B7B3D90B1/'.
-[2018.02.15-07.32.07:103][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.02.15-07.32.08:118][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.15-07.32.08:167][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.02.15-07.32.08:216][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.02.15-07.32.08:265][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.02.15-07.32.08:315][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.02.15-07.32.08:365][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.15-07.32.08:415][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.15-07.32.08:464][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.15-07.32.08:506][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.02.15-07.32.08:554][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.15-07.32.08:603][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.15-07.32.08:651][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.15-07.32.08:700][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.15-07.32.08:748][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.15-07.32.08:845][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.02.15-07.32.08:845][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.15-07.32.08:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.02.15-07.32.08:929][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.02.15-07.32.09:015][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.02.15-07.32.09:043][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.02.15-07.32.09:092][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.02.15-07.32.09:140][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.15-07.32.09:189][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.15-07.32.09:237][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.02.15-07.32.09:237][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.02.15-07.32.09:660][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.02.15-07.32.09:749][  0]LogDerivedDataCache: Loaded boot cache 0.09s 78MB C:/Users/Josias/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.15-07.32.09:749][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Josias/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.02.15-07.32.09:749][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../PandaProject/PandaProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.15-07.32.09:750][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.15-07.32.09:750][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../PandaProject/PandaProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.15-07.32.09:750][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.15-07.32.09:765][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.15-07.32.09:777][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Josias/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.15-07.32.09:789][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.02.15-07.32.09:789][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.15-07.32.09:789][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.15-07.32.09:790][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.15-07.32.10:212][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.15-07.32.10:528][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.15-07.32.10:565][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.15-07.32.10:565][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.15-07.32.10:565][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.02.15-07.32.10:565][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.02.15-07.32.10:565][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.02.15-07.32.10:591][  0]LogNetVersion: PandaProject , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2581480394)
-[2018.02.15-07.32.10:753][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
-[2018.02.15-07.32.11:284][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.081484 seconds
-[2018.02.15-07.32.11:289][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.02.15-07.32.11:289][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.02.15-07.32.11:289][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.15-07.32.11:336][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.15-07.32.13:884][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.15-07.32.13:926][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.15-07.32.14:578][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.15-07.32.15:023][  0]SourceControl: Source control is disabled
-[2018.02.15-07.32.15:916][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.02.15-07.32.16:175][  0]LogOcInput: OculusInput pre-init called
-[2018.02.15-07.32.16:453][  0]LogEngine: Initializing Engine...
-[2018.02.15-07.32.16:455][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.02.15-07.32.16:695][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.15-07.32.16:695][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.15-07.32.16:829][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.02.15-07.32.16:839][  0]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.15-07.32.16:851][  0]LogInit: FAudioDevice initialized.
-[2018.02.15-07.32.16:939][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/Josias/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.15-07.32.16:958][  0]LogInit: Texture streaming: Enabled
-[2018.02.15-07.32.17:049][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.02.15-07.32.17:168][  0]LogInit: Transaction tracking system initialized
-[2018.02.15-07.32.17:457][  0]BlueprintLog: New page: Editor Load
-[2018.02.15-07.32.18:296][  0]LocalizationService: Localization service is disabled
-[2018.02.15-07.32.19:001][  0]LogConsoleResponse: Display: 
-[2018.02.15-07.32.19:170][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.02.15-07.32.19:170][  0]LogCook: Display: Mobile HDR setting 1
-[2018.02.15-07.32.19:170][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.02.15-07.32.19:470][  0]LogFileCache: Scanning file cache for directory 'H:/PandaProject/PandaProject/Content/' took 0.01s
-[2018.02.15-07.32.20:274][  0]Cmd: MAP LOAD FILE="../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.15-07.32.20:275][  0]LightingResults: New page: Lighting Build
-[2018.02.15-07.32.20:313][  0]MapCheck: New page: Map Check
-[2018.02.15-07.32.20:313][  0]LightingResults: New page: Lighting Build
-[2018.02.15-07.32.20:671][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.02.15-07.32.20:682][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.15-07.32.20:693][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.15-07.32.20:741][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.453ms to complete.
-[2018.02.15-07.32.20:741][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.467
-[2018.02.15-07.32.20:809][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.02.15-07.32.20:810][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.02.15-07.32.20:893][  0]LogCollectionManager: Loaded 0 collections in 0.001499 seconds
-[2018.02.15-07.32.20:966][  0]LogFileCache: Scanning file cache for directory 'H:/PandaProject/PandaProject/Saved/Collections/' took 0.01s
-[2018.02.15-07.32.20:966][  0]LogFileCache: Scanning file cache for directory 'H:/PandaProject/PandaProject/Content/Developers/Josias/Collections/' took 0.01s
-[2018.02.15-07.32.20:966][  0]LogFileCache: Scanning file cache for directory 'H:/PandaProject/PandaProject/Content/Collections/' took 0.01s
-[2018.02.15-07.32.20:966][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.02.15-07.32.20:976][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2363 classes and 519 folders.
-[2018.02.15-07.32.21:035][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.02.15-07.32.21:073][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.02.15-07.32.21:113][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.02.15-07.32.21:188][  0]LogSlate: Took 0.000523 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.15-07.32.21:196][  0]LogSlate: Took 0.000680 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.02.15-07.32.21:205][  0]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.02.15-07.32.21:316][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
-[2018.02.15-07.32.21:534][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.02.15-07.32.21:534][  0]LogLoad: (Engine Initialization) Total time: 17.67 seconds
-[2018.02.15-07.32.21:534][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.02.15-07.32.21:535][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.02.15-07.32.21:566][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.02.15-07.32.21:609][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.15-07.32.21:625][  1]LogAssetRegistry: Asset discovery search completed in 10.8928 seconds
-[2018.02.15-07.32.21:627][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.02.15-07.32.21:627][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
-[2018.02.15-07.32.23:161][164]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.15-07.32.23:202][164]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.32.23:203][164]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.15-07.32.23:203][164]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 4:32:23 AM)
-[2018.02.15-07.32.23:203][164]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.02.15-07.32.23:210][164]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006619s)
-[2018.02.15-07.32.23:210][164]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.02.15-07.32.23:211][164]LogPlayLevel: PIE: World Init took: (0.000816s)
-[2018.02.15-07.32.23:211][164]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007761s)
-[2018.02.15-07.32.23:224][164]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.15-07.32.23:232][164]LogInit: FAudioDevice initialized.
-[2018.02.15-07.32.23:277][164]LogLoad: Game class is 'platformer_gamemode_C'
-[2018.02.15-07.32.23:280][164]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-18.02.23
-[2018.02.15-07.32.23:280][164]LogWorld: Bringing up level for play took: 0.002295
-[2018.02.15-07.32.23:321][164]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2018.02.15-07.32.23:323][164]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.208
-[2018.02.15-07.32.23:323][164]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.32.25:597][430]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.32.25:634][430]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.32.38:164][201]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.15-07.32.41:614][343]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.15-07.32.41:701][343]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.02.15-07.32.41:933][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.02.15-07.32.41:974][343]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_2:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2018.02.15-07.32.42:207][343]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.15-07.32.42:382][343]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
-[2018.02.15-07.32.42:388][343]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.02.15-07.32.48:855][577]LogSavePackage: Save=13.60ms
-[2018.02.15-07.32.48:855][577]LogSavePackage: Moving '../../../../../PandaProject/PandaProject/Saved/character_blendspaceE71FD3DC456AF1D6EAA5EA905CC1A581.tmp' to '../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/character_blendspace.uasset'
-[2018.02.15-07.32.48:859][577]LogSavePackage: Display: Finished SavePackage ../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/character_blendspace.uasset
-[2018.02.15-07.32.50:406][630]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Content/Animations/Pandaboy/Panda_JumpCrouch.Panda_JumpCrouch
-[2018.02.15-07.32.50:406][630]LogAnimationCompression: Recompressing (AnimSequence /Game/Content/Animations/Pandaboy/Panda_JumpCrouch.Panda_JumpCrouch) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.02.15-07.32.55:171][894]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Content/Animations/Pandaboy/Panda_JumpLand.Panda_JumpLand
-[2018.02.15-07.32.55:172][894]LogAnimationCompression: Recompressing (AnimSequence /Game/Content/Animations/Pandaboy/Panda_JumpLand.Panda_JumpLand) using current/default (AnimCompress_BitwiseCompressOnly_5) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.02.15-07.32.55:227][896]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Content/Animations/Pandaboy/Panda_Jumploop.Panda_Jumploop
-[2018.02.15-07.32.55:227][896]LogAnimationCompression: Recompressing (AnimSequence /Game/Content/Animations/Pandaboy/Panda_Jumploop.Panda_Jumploop) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.02.15-07.32.55:350][901]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Content/Animations/Pandaboy/Panda_JumpUp.Panda_JumpUp
-[2018.02.15-07.32.55:350][901]LogAnimationCompression: Recompressing (AnimSequence /Game/Content/Animations/Pandaboy/Panda_JumpUp.Panda_JumpUp) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.02.15-07.32.56:269][940]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Content/Animations/Pandaboy/Panda_Run.Panda_Run
-[2018.02.15-07.32.56:269][940]LogAnimationCompression: Recompressing (AnimSequence /Game/Content/Animations/Pandaboy/Panda_Run.Panda_Run) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.02.15-07.32.56:425][946]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Content/Animations/Pandaboy/Panda_Walk.Panda_Walk
-[2018.02.15-07.32.56:425][946]LogAnimationCompression: Recompressing (AnimSequence /Game/Content/Animations/Pandaboy/Panda_Walk.Panda_Walk) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.02.15-07.34.10:107][330]LogSavePackage: Save=13.63ms
-[2018.02.15-07.34.10:107][330]LogSavePackage: Moving '../../../../../PandaProject/PandaProject/Saved/character_blendspace077743BF4709D51C287643A3474D5816.tmp' to '../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/character_blendspace.uasset'
-[2018.02.15-07.34.10:112][330]LogSavePackage: Display: Finished SavePackage ../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/character_blendspace.uasset
-[2018.02.15-07.34.17:162][994]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
-[2018.02.15-07.34.17:206][994]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
-[2018.02.15-07.34.17:529][994]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.02.15-07.34.22:616][302]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
-[2018.02.15-07.34.22:675][302]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
-[2018.02.15-07.34.22:973][302]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.02.15-07.34.23:018][303]LogRenderer: Reallocating scene render targets to support 1208x896 Format 10 NumSamples 1 (Frame:1).
-[2018.02.15-07.34.23:565][327]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) Already registered. Aborting.
-[2018.02.15-07.34.23:600][327]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) - call TermArticulated first.
-[2018.02.15-07.34.25:240][390]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0003 seconds. Added 7 classes and 3 folders.
-[2018.02.15-07.34.25:257][390]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_4.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
-[2018.02.15-07.34.25:559][390]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.02.15-07.34.49:867][782]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
-[2018.02.15-07.34.51:806][782]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
-[2018.02.15-07.35.10:217][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Content/Animations/Pandaboy/panda_blendspace" FILE="../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/panda_blendspace.uasset" SILENT=true
-[2018.02.15-07.35.10:233][305]LogSavePackage: Save=13.84ms
-[2018.02.15-07.35.10:233][305]LogSavePackage: Moving '../../../../../PandaProject/PandaProject/Saved/panda_blendspace13C867844FC4F597005516B4F8D25C59.tmp' to '../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/panda_blendspace.uasset'
-[2018.02.15-07.35.10:237][305]LogSavePackage: Display: Finished SavePackage ../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/panda_blendspace.uasset
-[2018.02.15-07.35.11:956][398]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_5.DebugSkelMeshComponent_6) Already registered. Aborting.
-[2018.02.15-07.35.12:296][398]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2018.02.15-07.35.13:095][398]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_5.DebugSkelMeshComponent_6) - call TermArticulated first.
-[2018.02.15-07.39.31:312][616]BlueprintLog: New page: Compile panda_animation
-[2018.02.15-07.39.31:323][616]LogBlueprint: Warning: [Compiler panda_animation] Jump Start to Jump Loop  will never be taken, please connect something to  Can Enter Transition
-[2018.02.15-07.39.31:323][616]LogBlueprint: Warning: [Compiler panda_animation] Jump Loop to Jump End  will never be taken, please connect something to  Can Enter Transition
-[2018.02.15-07.39.31:323][616]LogBlueprint: Warning: [Compiler panda_animation] Jump End to Idle_Walk_Run  will never be taken, please connect something to  Can Enter Transition
-[2018.02.15-07.39.31:460][616]LogBlueprint: Warning: [Compiler panda_animation] [0447.60] Compile of panda_animation successful, but with 3 Warning(s) [in 147 ms] (/Game/Content/Animations/Pandaboy/panda_animation.panda_animation)
-[2018.02.15-07.41.23:636][274]BlueprintLog: New page: Compile panda_animation
-[2018.02.15-07.41.23:647][274]LogBlueprint: Warning: [Compiler panda_animation] Jump Start to Jump Loop  will never be taken, please connect something to  Can Enter Transition
-[2018.02.15-07.41.23:647][274]LogBlueprint: Warning: [Compiler panda_animation] Jump Loop to Jump End  will never be taken, please connect something to  Can Enter Transition
-[2018.02.15-07.41.23:648][274]LogBlueprint: Warning: [Compiler panda_animation] Jump End to Idle_Walk_Run  will never be taken, please connect something to  Can Enter Transition
-[2018.02.15-07.41.23:772][274]LogBlueprint: Warning: [Compiler panda_animation] [0559.91] Compile of panda_animation successful, but with 3 Warning(s) [in 136 ms] (/Game/Content/Animations/Pandaboy/panda_animation.panda_animation)
-[2018.02.15-07.41.50:376][  8]BlueprintLog: New page: Compile panda_animation
-[2018.02.15-07.41.50:388][  8]LogBlueprint: Warning: [Compiler panda_animation] Jump Start to Jump Loop  will never be taken, please connect something to  Can Enter Transition
-[2018.02.15-07.41.50:389][  8]LogBlueprint: Warning: [Compiler panda_animation] Jump Loop to Jump End  will never be taken, please connect something to  Can Enter Transition
-[2018.02.15-07.41.50:389][  8]LogBlueprint: Warning: [Compiler panda_animation] Jump End to Idle_Walk_Run  will never be taken, please connect something to  Can Enter Transition
-[2018.02.15-07.41.50:512][  8]LogBlueprint: Warning: [Compiler panda_animation] [0586.65] Compile of panda_animation successful, but with 3 Warning(s) [in 134 ms] (/Game/Content/Animations/Pandaboy/panda_animation.panda_animation)
-[2018.02.15-07.42.16:706][628]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2018.02.15-07.42.32:437][582]BlueprintLog: New page: Compile panda_animation
-[2018.02.15-07.42.32:452][582]LogBlueprint: Warning: [Compiler panda_animation] Jump Start to Jump Loop  will never be taken, please connect something to  Can Enter Transition
-[2018.02.15-07.42.32:452][582]LogBlueprint: Warning: [Compiler panda_animation] Jump Loop to Jump End  will never be taken, please connect something to  Can Enter Transition
-[2018.02.15-07.42.32:452][582]LogBlueprint: Warning: [Compiler panda_animation] Jump End to Idle_Walk_Run  will never be taken, please connect something to  Can Enter Transition
-[2018.02.15-07.42.32:580][582]LogBlueprint: Warning: [Compiler panda_animation] [0628.72] Compile of panda_animation successful, but with 3 Warning(s) [in 142 ms] (/Game/Content/Animations/Pandaboy/panda_animation.panda_animation)
-[2018.02.15-07.43.10:823][303]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.017
-[2018.02.15-07.43.10:826][303]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Content/Animations/Pandaboy/panda_animation] ([1] browsable assets)...
-[2018.02.15-07.43.10:839][303]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Content/Animations/Pandaboy/panda_animation.panda_animation]
-[2018.02.15-07.43.10:839][303]OBJ SavePackage: Finished generating thumbnails for package [/Game/Content/Animations/Pandaboy/panda_animation]
-[2018.02.15-07.43.10:909][303]LogSavePackage: Save=64.94ms
-[2018.02.15-07.43.10:909][303]LogSavePackage: Moving '../../../../../PandaProject/PandaProject/Saved/panda_animation_Auto19BC7DFB34A4A6EE043FE14BF7F8EB249.tmp' to '../../../../../PandaProject/PandaProject/Saved/Autosaves/Game/Content/Animations/Pandaboy/panda_animation_Auto1.uasset'
-[2018.02.15-07.43.10:911][303]LogSavePackage: Display: Finished SavePackage ../../../../../PandaProject/PandaProject/Saved/Autosaves/Game/Content/Animations/Pandaboy/panda_animation_Auto1.uasset
-[2018.02.15-07.43.10:911][303]LogFileHelpers: Auto-saving content packages took 0.088
-[2018.02.15-07.45.26:713][439]BlueprintLog: New page: Compile panda_animation
-[2018.02.15-07.45.50:465][723]BlueprintLog: New page: Compile panda_animation
-[2018.02.15-07.46.11:661][970]BlueprintLog: New page: Compile panda_animation
-[2018.02.15-07.46.18:548][403]BlueprintLog: New page: Compile panda_animation
-[2018.02.15-07.46.35:171][602]BlueprintLog: New page: Compile panda_animation
-[2018.02.15-07.47.55:234][184]BlueprintLog: New page: Compile panda_animation
-[2018.02.15-07.48.03:070][703]BlueprintLog: New page: Compile panda_animation
-[2018.02.15-07.48.15:473][366]BlueprintLog: New page: Compile panda_animation
-[2018.02.15-07.48.29:660][359]BlueprintLog: New page: Compile panda_animation
-[2018.02.15-07.48.52:206][863]BlueprintLog: New page: Compile panda_animation
-[2018.02.15-07.49.02:730][568]BlueprintLog: New page: Compile panda_animation
-[2018.02.15-07.49.12:662][228]BlueprintLog: New page: Compile panda_animation
-[2018.02.15-07.49.20:800][569]BlueprintLog: New page: Compile panda_animation
-[2018.02.15-07.49.28:487][ 85]BlueprintLog: New page: Compile panda_animation
-[2018.02.15-07.53.32:913][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Content/Animations/Pandaboy/panda_animation" FILE="../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/panda_animation.uasset" SILENT=true
-[2018.02.15-07.53.33:016][741]LogSavePackage: Save=99.17ms
-[2018.02.15-07.53.33:016][741]LogSavePackage: Moving '../../../../../PandaProject/PandaProject/Saved/panda_animationB4EE70AE4F9FA661CC00B19E1BEBD4BA.tmp' to '../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/panda_animation.uasset'
-[2018.02.15-07.53.33:020][741]LogSavePackage: Display: Finished SavePackage ../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/panda_animation.uasset
-[2018.02.15-07.53.40:380][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Content/Animations/Pandaboy/panda_animation" FILE="../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/panda_animation.uasset" SILENT=true
-[2018.02.15-07.53.40:479][926]LogSavePackage: Save=87.55ms
-[2018.02.15-07.53.40:479][926]LogSavePackage: Moving '../../../../../PandaProject/PandaProject/Saved/panda_animation30B288844DB7FD757F8E90A5E920338F.tmp' to '../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/panda_animation.uasset'
-[2018.02.15-07.53.40:482][926]LogSavePackage: Display: Finished SavePackage ../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/panda_animation.uasset
-[2018.02.15-07.53.42:069][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Content/Animations/Pandaboy/panda_animation" FILE="../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/panda_animation.uasset" SILENT=true
-[2018.02.15-07.53.42:160][ 60]LogSavePackage: Save=86.62ms
-[2018.02.15-07.53.42:160][ 60]LogSavePackage: Moving '../../../../../PandaProject/PandaProject/Saved/panda_animation34FE24F24BCB6C1244074D9F78E664B6.tmp' to '../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/panda_animation.uasset'
-[2018.02.15-07.53.42:163][ 60]LogSavePackage: Display: Finished SavePackage ../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/panda_animation.uasset
-[2018.02.15-07.53.42:825][110]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.15-07.53.42:848][110]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.53.42:848][110]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.02.15-07.53.42:857][110]LogPlayLevel: [PlayLevel] Compiling panda_animation before play...
-[2018.02.15-07.53.43:002][110]LogPlayLevel: PlayLevel: Blueprint regeneration took 153 ms (1 blueprints)
-[2018.02.15-07.53.43:002][110]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 4:53:43 AM)
-[2018.02.15-07.53.43:002][110]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.02.15-07.53.43:009][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006850s)
-[2018.02.15-07.53.43:010][110]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.02.15-07.53.43:010][110]LogPlayLevel: PIE: World Init took: (0.000835s)
-[2018.02.15-07.53.43:010][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007962s)
-[2018.02.15-07.53.43:030][110]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.15-07.53.43:038][110]LogInit: FAudioDevice initialized.
-[2018.02.15-07.53.43:069][110]LogLoad: Game class is 'platformer_gamemode_C'
-[2018.02.15-07.53.43:071][110]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-18.23.43
-[2018.02.15-07.53.43:072][110]LogWorld: Bringing up level for play took: 0.002228
-[2018.02.15-07.53.43:073][110]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.458
-[2018.02.15-07.53.43:074][110]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.53.45:345][376]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.53.45:376][376]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.53.47:205][523]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_6.DebugSkelMeshComponent_8) Already registered. Aborting.
-[2018.02.15-07.53.47:478][523]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.Actor_6.DebugSkelMeshComponent_8) - call TermArticulated first.
-[2018.02.15-07.54.24:149][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Content/Animations/Pandaboy/panda_animation" FILE="../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/panda_animation.uasset" SILENT=true
-[2018.02.15-07.54.24:244][576]LogSavePackage: Save=91.32ms
-[2018.02.15-07.54.24:245][576]LogSavePackage: Moving '../../../../../PandaProject/PandaProject/Saved/panda_animationA80AB7434052DAC711D85FAE7B7B9FF1.tmp' to '../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/panda_animation.uasset'
-[2018.02.15-07.54.24:251][576]LogSavePackage: Display: Finished SavePackage ../../../../../PandaProject/PandaProject/Content/Content/Animations/Pandaboy/panda_animation.uasset
-[2018.02.15-07.54.26:104][686]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.15-07.54.26:127][686]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.54.26:127][686]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.15-07.54.26:127][686]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 4:54:26 AM)
-[2018.02.15-07.54.26:127][686]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.02.15-07.54.26:134][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006649s)
-[2018.02.15-07.54.26:135][686]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.02.15-07.54.26:135][686]LogPlayLevel: PIE: World Init took: (0.000772s)
-[2018.02.15-07.54.26:135][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007735s)
-[2018.02.15-07.54.26:158][686]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.15-07.54.26:165][686]LogInit: FAudioDevice initialized.
-[2018.02.15-07.54.26:197][686]LogLoad: Game class is 'platformer_gamemode_C'
-[2018.02.15-07.54.26:200][686]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-18.24.26
-[2018.02.15-07.54.26:200][686]LogWorld: Bringing up level for play took: 0.002260
-[2018.02.15-07.54.26:202][686]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.671
-[2018.02.15-07.54.26:202][686]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.54.29:787][110]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.54.29:819][110]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.54.42:763][167]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.15-07.54.42:783][167]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.54.42:784][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.15-07.54.42:784][167]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 4:54:42 AM)
-[2018.02.15-07.54.42:784][167]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.02.15-07.54.42:791][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006594s)
-[2018.02.15-07.54.42:791][167]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.02.15-07.54.42:791][167]LogPlayLevel: PIE: World Init took: (0.000724s)
-[2018.02.15-07.54.42:792][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007634s)
-[2018.02.15-07.54.42:814][167]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.15-07.54.42:823][167]LogInit: FAudioDevice initialized.
-[2018.02.15-07.54.42:858][167]LogLoad: Game class is 'platformer_gamemode_C'
-[2018.02.15-07.54.42:862][167]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-18.24.42
-[2018.02.15-07.54.42:863][167]LogWorld: Bringing up level for play took: 0.003482
-[2018.02.15-07.54.42:866][167]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.665
-[2018.02.15-07.54.42:866][167]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.54.44:742][378]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.54.44:777][378]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.54.57:201][345]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
-[2018.02.15-07.54.57:201][345]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
-[2018.02.15-07.54.58:171][396]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.02.15-07.55.02:667][576]BlueprintLog: New page: Compile panda_character_controller
-[2018.02.15-07.55.04:747][710]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.15-07.55.04:771][710]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.55.04:771][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.15-07.55.04:771][710]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 4:55:04 AM)
-[2018.02.15-07.55.04:771][710]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.02.15-07.55.04:780][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008453s)
-[2018.02.15-07.55.04:781][710]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.02.15-07.55.04:781][710]LogPlayLevel: PIE: World Init took: (0.000950s)
-[2018.02.15-07.55.04:781][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009888s)
-[2018.02.15-07.55.04:802][710]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.15-07.55.04:809][710]LogInit: FAudioDevice initialized.
-[2018.02.15-07.55.04:843][710]LogLoad: Game class is 'platformer_gamemode_C'
-[2018.02.15-07.55.04:846][710]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-18.25.04
-[2018.02.15-07.55.04:846][710]LogWorld: Bringing up level for play took: 0.002145
-[2018.02.15-07.55.04:848][710]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.683
-[2018.02.15-07.55.04:848][710]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.55.06:381][889]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.55.06:418][889]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.55.17:274][452]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.02.15-07.55.21:190][619]BlueprintLog: New page: Compile panda_character_controller
-[2018.02.15-07.55.23:291][715]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.15-07.55.23:310][715]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.55.23:310][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.15-07.55.23:310][715]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 4:55:23 AM)
-[2018.02.15-07.55.23:310][715]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.02.15-07.55.23:316][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006137s)
-[2018.02.15-07.55.23:317][715]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.02.15-07.55.23:317][715]LogPlayLevel: PIE: World Init took: (0.000680s)
-[2018.02.15-07.55.23:317][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007087s)
-[2018.02.15-07.55.23:338][715]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.15-07.55.23:345][715]LogInit: FAudioDevice initialized.
-[2018.02.15-07.55.23:375][715]LogLoad: Game class is 'platformer_gamemode_C'
-[2018.02.15-07.55.23:377][715]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-18.25.23
-[2018.02.15-07.55.23:377][715]LogWorld: Bringing up level for play took: 0.002132
-[2018.02.15-07.55.23:379][715]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.152
-[2018.02.15-07.55.23:380][715]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.55.50:069][911]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.55.50:105][911]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.55.51:191][  2]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.15-07.55.51:210][  2]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.55.51:211][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.15-07.55.51:211][  2]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 4:55:51 AM)
-[2018.02.15-07.55.51:211][  2]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.02.15-07.55.51:217][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006022s)
-[2018.02.15-07.55.51:217][  2]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.02.15-07.55.51:218][  2]LogPlayLevel: PIE: World Init took: (0.000672s)
-[2018.02.15-07.55.51:218][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006975s)
-[2018.02.15-07.55.51:238][  2]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.15-07.55.51:245][  2]LogInit: FAudioDevice initialized.
-[2018.02.15-07.55.51:279][  2]LogLoad: Game class is 'platformer_gamemode_C'
-[2018.02.15-07.55.51:282][  2]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-18.25.51
-[2018.02.15-07.55.51:283][  2]LogWorld: Bringing up level for play took: 0.002473
-[2018.02.15-07.55.51:285][  2]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.247
-[2018.02.15-07.55.51:285][  2]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.55.56:422][613]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.55.56:454][613]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.55.57:178][670]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.15-07.55.57:197][670]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.55.57:197][670]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.15-07.55.57:197][670]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 4:55:57 AM)
-[2018.02.15-07.55.57:197][670]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.02.15-07.55.57:203][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005941s)
-[2018.02.15-07.55.57:204][670]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.02.15-07.55.57:204][670]LogPlayLevel: PIE: World Init took: (0.000794s)
-[2018.02.15-07.55.57:204][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007032s)
-[2018.02.15-07.55.57:224][670]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.15-07.55.57:232][670]LogInit: FAudioDevice initialized.
-[2018.02.15-07.55.57:262][670]LogLoad: Game class is 'platformer_gamemode_C'
-[2018.02.15-07.55.57:264][670]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-18.25.57
-[2018.02.15-07.55.57:264][670]LogWorld: Bringing up level for play took: 0.002168
-[2018.02.15-07.55.57:267][670]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.265
-[2018.02.15-07.55.57:267][670]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.56.00:467][ 49]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.56.00:500][ 49]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.56.01:145][ 96]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.15-07.56.01:164][ 96]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.56.01:164][ 96]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.15-07.56.01:165][ 96]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 4:56:01 AM)
-[2018.02.15-07.56.01:165][ 96]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.02.15-07.56.01:171][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005968s)
-[2018.02.15-07.56.01:171][ 96]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.02.15-07.56.01:171][ 96]LogPlayLevel: PIE: World Init took: (0.000681s)
-[2018.02.15-07.56.01:172][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006936s)
-[2018.02.15-07.56.01:192][ 96]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.15-07.56.01:199][ 96]LogInit: FAudioDevice initialized.
-[2018.02.15-07.56.01:234][ 96]LogLoad: Game class is 'platformer_gamemode_C'
-[2018.02.15-07.56.01:236][ 96]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-18.26.01
-[2018.02.15-07.56.01:237][ 96]LogWorld: Bringing up level for play took: 0.002137
-[2018.02.15-07.56.01:239][ 96]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.292
-[2018.02.15-07.56.01:239][ 96]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.56.24:877][923]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.56.24:912][923]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.56.26:654][  3]LogSavePackage: Save=172.74ms
-[2018.02.15-07.56.26:655][  3]LogSavePackage: Moving '../../../../../PandaProject/PandaProject/Saved/Minimal_DefaultAEB66C6047A254955D9C3CAE54ED654F.tmp' to '../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default.umap'
-[2018.02.15-07.56.26:662][  3]LogSavePackage: Display: Finished SavePackage ../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default.umap
-[2018.02.15-07.56.26:699][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default_BuiltData" FILE="../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" SILENT=true
-[2018.02.15-07.56.26:754][  3]LogSavePackage: Save=46.67ms
-[2018.02.15-07.56.26:755][  3]LogSavePackage: Moving '../../../../../PandaProject/PandaProject/Saved/Minimal_Default_BuiltData3E640FE04083C4CE0E2FACB24DB44783.tmp' to '../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
-[2018.02.15-07.56.26:757][  3]LogSavePackage: Display: Finished SavePackage ../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
-[2018.02.15-07.56.27:539][ 59]LogSavePackage: Save=48.69ms
-[2018.02.15-07.56.27:539][ 59]LogSavePackage: Moving '../../../../../PandaProject/PandaProject/Saved/panda_character_controllerAF14E8FC4091EC22764EE3A1FA411795.tmp' to '../../../../../PandaProject/PandaProject/Content/Content/Controllers/Player/panda_character_controller.uasset'
-[2018.02.15-07.56.27:544][ 59]LogSavePackage: Display: Finished SavePackage ../../../../../PandaProject/PandaProject/Content/Content/Controllers/Player/panda_character_controller.uasset
-[2018.02.15-07.56.28:270][ 78]LogSavePackage: Save=171.83ms
-[2018.02.15-07.56.28:270][ 78]LogSavePackage: Moving '../../../../../PandaProject/PandaProject/Saved/Minimal_Default61310BE54FCCD20630D18D881D5110EF.tmp' to '../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default.umap'
-[2018.02.15-07.56.28:276][ 78]LogSavePackage: Display: Finished SavePackage ../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default.umap
-[2018.02.15-07.56.28:315][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default_BuiltData" FILE="../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" SILENT=true
-[2018.02.15-07.56.28:357][ 78]LogSavePackage: Save=37.97ms
-[2018.02.15-07.56.28:357][ 78]LogSavePackage: Moving '../../../../../PandaProject/PandaProject/Saved/Minimal_Default_BuiltDataACC0680E4189E82288303AA8AD05117E.tmp' to '../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
-[2018.02.15-07.56.28:360][ 78]LogSavePackage: Display: Finished SavePackage ../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
-[2018.02.15-07.57.57:494][705]BlueprintLog: New page: Compile panda_character_controller
-[2018.02.15-07.57.59:914][888]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.15-07.57.59:933][888]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.57.59:933][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.15-07.57.59:933][888]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 4:57:59 AM)
-[2018.02.15-07.57.59:933][888]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.02.15-07.57.59:940][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006181s)
-[2018.02.15-07.57.59:940][888]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.02.15-07.57.59:940][888]LogPlayLevel: PIE: World Init took: (0.000722s)
-[2018.02.15-07.57.59:941][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007206s)
-[2018.02.15-07.57.59:962][888]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.15-07.57.59:969][888]LogInit: FAudioDevice initialized.
-[2018.02.15-07.58.00:002][888]LogLoad: Game class is 'platformer_gamemode_C'
-[2018.02.15-07.58.00:005][888]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-18.28.00
-[2018.02.15-07.58.00:005][888]LogWorld: Bringing up level for play took: 0.002574
-[2018.02.15-07.58.00:007][888]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.476
-[2018.02.15-07.58.00:008][888]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.58.05:902][591]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.58.05:935][591]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.58.07:018][700]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.15-07.58.07:038][700]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.58.07:038][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.15-07.58.07:038][700]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 4:58:07 AM)
-[2018.02.15-07.58.07:038][700]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.02.15-07.58.07:045][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006784s)
-[2018.02.15-07.58.07:046][700]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.02.15-07.58.07:046][700]LogPlayLevel: PIE: World Init took: (0.000892s)
-[2018.02.15-07.58.07:046][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008001s)
-[2018.02.15-07.58.07:066][700]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.15-07.58.07:073][700]LogInit: FAudioDevice initialized.
-[2018.02.15-07.58.07:102][700]LogLoad: Game class is 'platformer_gamemode_C'
-[2018.02.15-07.58.07:105][700]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-18.28.07
-[2018.02.15-07.58.07:105][700]LogWorld: Bringing up level for play took: 0.002302
-[2018.02.15-07.58.07:107][700]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.424
-[2018.02.15-07.58.07:107][700]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.58.11:274][195]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.58.11:306][195]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.58.12:140][272]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.15-07.58.12:159][272]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.58.12:159][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.15-07.58.12:159][272]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 4:58:12 AM)
-[2018.02.15-07.58.12:159][272]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.02.15-07.58.12:165][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005693s)
-[2018.02.15-07.58.12:166][272]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.02.15-07.58.12:166][272]LogPlayLevel: PIE: World Init took: (0.000846s)
-[2018.02.15-07.58.12:166][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006874s)
-[2018.02.15-07.58.12:186][272]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.15-07.58.12:193][272]LogInit: FAudioDevice initialized.
-[2018.02.15-07.58.12:224][272]LogLoad: Game class is 'platformer_gamemode_C'
-[2018.02.15-07.58.12:227][272]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-18.28.12
-[2018.02.15-07.58.12:227][272]LogWorld: Bringing up level for play took: 0.002166
-[2018.02.15-07.58.12:229][272]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.698
-[2018.02.15-07.58.12:230][272]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.58.16:480][777]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.58.16:513][777]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.58.17:396][853]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.15-07.58.17:415][853]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.58.17:415][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.15-07.58.17:415][853]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 4:58:17 AM)
-[2018.02.15-07.58.17:415][853]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.02.15-07.58.17:421][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005789s)
-[2018.02.15-07.58.17:421][853]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.02.15-07.58.17:422][853]LogPlayLevel: PIE: World Init took: (0.000738s)
-[2018.02.15-07.58.17:422][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006837s)
-[2018.02.15-07.58.17:441][853]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.15-07.58.17:449][853]LogInit: FAudioDevice initialized.
-[2018.02.15-07.58.17:481][853]LogLoad: Game class is 'platformer_gamemode_C'
-[2018.02.15-07.58.17:483][853]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-18.28.17
-[2018.02.15-07.58.17:484][853]LogWorld: Bringing up level for play took: 0.002614
-[2018.02.15-07.58.17:486][853]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.045
-[2018.02.15-07.58.17:486][853]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.58.27:130][  5]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.58.27:162][  5]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.02.15-07.58.28:716][148]LogSavePackage: Save=187.23ms
-[2018.02.15-07.58.28:716][148]LogSavePackage: Moving '../../../../../PandaProject/PandaProject/Saved/Minimal_Default2780844A452DF9F8B4C4E490B1AC8975.tmp' to '../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default.umap'
-[2018.02.15-07.58.28:721][148]LogSavePackage: Display: Finished SavePackage ../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default.umap
-[2018.02.15-07.58.28:755][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default_BuiltData" FILE="../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" SILENT=true
-[2018.02.15-07.58.28:797][148]LogSavePackage: Save=37.88ms
-[2018.02.15-07.58.28:797][148]LogSavePackage: Moving '../../../../../PandaProject/PandaProject/Saved/Minimal_Default_BuiltData9AF025D248955D858F8D79A1B905C911.tmp' to '../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
-[2018.02.15-07.58.28:799][148]LogSavePackage: Display: Finished SavePackage ../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2018.02.15-09.26.35:840][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.15-09.26.35:840][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.15-09.26.35:854][  0]LogInit: Computer: DESKTOP-1E6CSM8
+[2018.02.15-09.26.35:854][  0]LogInit: User: Josias
+[2018.02.15-09.26.35:854][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.15-09.26.35:854][  0]LogInit: High frequency timer resolution =3.613248 MHz
+[2018.02.15-09.26.35:854][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.02.15-09.26.35:854][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.15-09.26.35:854][  0]LogMemory: Process Physical Memory: 276.00 MB used, 276.00 MB peak
+[2018.02.15-09.26.35:854][  0]LogMemory: Process Virtual Memory: 277.88 MB used, 277.88 MB peak
+[2018.02.15-09.26.35:854][  0]LogMemory: Physical Memory: 7163.67 MB used,  9172.18 MB free, 16335.86 MB total
+[2018.02.15-09.26.35:854][  0]LogMemory: Virtual Memory: 685.92 MB used,  9172.18 MB free, 134217728.00 MB total
+[2018.02.15-09.26.35:983][  0]LogInit: Using OS detected language (en-US).
+[2018.02.15-09.26.35:983][  0]LogInit: Using OS detected locale (en-US).
+[2018.02.15-09.26.35:986][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.15-09.26.36:676][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.15-09.26.36:721][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.02.15-09.26.36:721][  0]LogD3D11RHI:       8086/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.15-09.26.36:723][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.15-09.26.36:723][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.15-09.26.36:723][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.15-09.26.36:729][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.15-09.26.36:729][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.15-09.26.36:729][  0]LogWindows: EnumDisplayDevices:
+[2018.02.15-09.26.36:730][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.02.15-09.26.36:730][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.02.15-09.26.36:730][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.02.15-09.26.36:730][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.02.15-09.26.36:730][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.15-09.26.36:730][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.02.15-09.26.36:730][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.15-09.26.36:730][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.15-09.26.36:730][  0]LogRHI: Texture pool is 5660 MB (70% of 8086 MB)
+[2018.02.15-09.26.36:762][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.15-09.26.36:943][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.15-09.26.36:991][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../PandaProject/PandaProject/Intermediate/Shaders/WorkingDirectory/1792/).
+[2018.02.15-09.26.36:991][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Josias/AppData/Local/Temp/UnrealShaderWorkingDir/8ACD4E4C460AE7D8BD58228AC1F73A85/'.
+[2018.02.15-09.26.36:991][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.15-09.26.37:999][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.15-09.26.38:050][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.15-09.26.38:099][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.15-09.26.38:148][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.15-09.26.38:197][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.15-09.26.38:246][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.15-09.26.38:295][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.15-09.26.38:344][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.15-09.26.38:397][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.15-09.26.38:445][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.15-09.26.38:493][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.15-09.26.38:542][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.15-09.26.38:589][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.15-09.26.38:637][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.15-09.26.38:732][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.15-09.26.38:732][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.15-09.26.38:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.15-09.26.38:820][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.15-09.26.38:906][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.15-09.26.38:933][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.15-09.26.38:981][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.15-09.26.39:029][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.15-09.26.39:077][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.15-09.26.39:125][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.15-09.26.39:125][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.15-09.26.39:552][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.15-09.26.39:641][  0]LogDerivedDataCache: Loaded boot cache 0.09s 78MB C:/Users/Josias/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.15-09.26.39:641][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Josias/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.15-09.26.39:642][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../PandaProject/PandaProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.15-09.26.39:642][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.15-09.26.39:642][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../PandaProject/PandaProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.15-09.26.39:642][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.15-09.26.39:658][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.15-09.26.39:670][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Josias/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.15-09.26.39:681][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.15-09.26.39:682][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.15-09.26.39:682][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.15-09.26.39:682][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.15-09.26.40:105][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.15-09.26.40:425][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.15-09.26.40:462][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.15-09.26.40:462][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.15-09.26.40:462][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.15-09.26.40:462][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.15-09.26.40:462][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.15-09.26.40:489][  0]LogNetVersion: PandaProject , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2581480394)
+[2018.02.15-09.26.40:651][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2018.02.15-09.26.41:181][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.081475 seconds
+[2018.02.15-09.26.41:187][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.15-09.26.41:187][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.02.15-09.26.41:187][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.15-09.26.41:234][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.15-09.26.43:763][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.15-09.26.43:804][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.15-09.26.44:451][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.15-09.26.44:854][  0]SourceControl: Source control is disabled
+[2018.02.15-09.26.45:718][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.15-09.26.45:968][  0]LogOcInput: OculusInput pre-init called
+[2018.02.15-09.26.46:238][  0]LogEngine: Initializing Engine...
+[2018.02.15-09.26.46:241][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.15-09.26.46:482][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.15-09.26.46:482][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.15-09.26.46:604][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.15-09.26.46:613][  0]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.15-09.26.46:625][  0]LogInit: FAudioDevice initialized.
+[2018.02.15-09.26.46:712][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/Josias/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.15-09.26.46:734][  0]LogInit: Texture streaming: Enabled
+[2018.02.15-09.26.46:825][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.15-09.26.46:943][  0]LogInit: Transaction tracking system initialized
+[2018.02.15-09.26.47:222][  0]BlueprintLog: New page: Editor Load
+[2018.02.15-09.26.48:017][  0]LocalizationService: Localization service is disabled
+[2018.02.15-09.26.48:703][  0]LogConsoleResponse: Display: 
+[2018.02.15-09.26.48:869][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.15-09.26.48:869][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.15-09.26.48:869][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.15-09.26.49:168][  0]LogFileCache: Scanning file cache for directory 'H:/PandaProject/PandaProject/Content/' took 0.01s
+[2018.02.15-09.26.49:959][  0]Cmd: MAP LOAD FILE="../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.15-09.26.49:959][  0]LightingResults: New page: Lighting Build
+[2018.02.15-09.26.50:000][  0]MapCheck: New page: Map Check
+[2018.02.15-09.26.50:001][  0]LightingResults: New page: Lighting Build
+[2018.02.15-09.26.50:376][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Content/Animations/Pandaboy/Panda_JumpUp.Panda_JumpUp
+[2018.02.15-09.26.50:376][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Content/Animations/Pandaboy/Panda_JumpUp.Panda_JumpUp) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.02.15-09.26.50:400][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.15-09.26.50:410][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.15-09.26.50:421][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.15-09.26.50:470][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.713ms to complete.
+[2018.02.15-09.26.50:470][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.511
+[2018.02.15-09.26.50:536][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.15-09.26.50:536][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.15-09.26.50:617][  0]LogCollectionManager: Loaded 0 collections in 0.001430 seconds
+[2018.02.15-09.26.50:692][  0]LogFileCache: Scanning file cache for directory 'H:/PandaProject/PandaProject/Saved/Collections/' took 0.01s
+[2018.02.15-09.26.50:692][  0]LogFileCache: Scanning file cache for directory 'H:/PandaProject/PandaProject/Content/Developers/Josias/Collections/' took 0.01s
+[2018.02.15-09.26.50:692][  0]LogFileCache: Scanning file cache for directory 'H:/PandaProject/PandaProject/Content/Collections/' took 0.01s
+[2018.02.15-09.26.50:692][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.02.15-09.26.50:702][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2363 classes and 519 folders.
+[2018.02.15-09.26.50:760][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.15-09.26.50:803][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.15-09.26.50:843][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.02.15-09.26.50:918][  0]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.15-09.26.50:920][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.15-09.26.50:926][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.15-09.26.51:036][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
+[2018.02.15-09.26.51:296][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.02.15-09.26.51:296][  0]LogLoad: (Engine Initialization) Total time: 17.80 seconds
+[2018.02.15-09.26.51:296][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.15-09.26.51:296][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.15-09.26.51:328][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.15-09.26.51:374][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.15-09.26.51:392][  1]LogAssetRegistry: Asset discovery search completed in 10.7625 seconds
+[2018.02.15-09.26.51:394][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.15-09.26.51:394][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
+[2018.02.15-09.29.36:691][ 70]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.15-09.29.36:743][ 70]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.29.36:744][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-09.29.36:744][ 70]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 6:29:36 AM)
+[2018.02.15-09.29.36:744][ 70]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.15-09.29.36:751][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006839s)
+[2018.02.15-09.29.36:752][ 70]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.15-09.29.36:752][ 70]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2018.02.15-09.29.36:752][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008132s)
+[2018.02.15-09.29.36:766][ 70]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.15-09.29.36:776][ 70]LogInit: FAudioDevice initialized.
+[2018.02.15-09.29.36:820][ 70]LogLoad: Game class is 'platformer_gamemode_C'
+[2018.02.15-09.29.36:823][ 70]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-19.59.36
+[2018.02.15-09.29.36:823][ 70]LogWorld: Bringing up level for play took: 0.002290
+[2018.02.15-09.29.36:862][ 70]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.02.15-09.29.36:864][ 70]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.668
+[2018.02.15-09.29.36:864][ 70]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.29.44:992][ 35]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.29.45:027][ 35]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.29.46:139][130]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.15-09.29.46:162][130]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.29.46:163][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-09.29.46:163][130]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 6:29:46 AM)
+[2018.02.15-09.29.46:163][130]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.15-09.29.46:173][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009523s)
+[2018.02.15-09.29.46:173][130]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.15-09.29.46:174][130]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2018.02.15-09.29.46:174][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010753s)
+[2018.02.15-09.29.46:189][130]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.15-09.29.46:197][130]LogInit: FAudioDevice initialized.
+[2018.02.15-09.29.46:233][130]LogLoad: Game class is 'platformer_gamemode_C'
+[2018.02.15-09.29.46:235][130]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-19.59.46
+[2018.02.15-09.29.46:236][130]LogWorld: Bringing up level for play took: 0.002533
+[2018.02.15-09.29.46:238][130]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.706
+[2018.02.15-09.29.46:238][130]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.29.54:734][143]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.29.54:770][143]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.30.05:121][490]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.15-09.30.05:214][490]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.02.15-09.30.05:440][490]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.02.15-09.30.05:738][490]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.15-09.30.05:808][490]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.02.15-09.30.06:633][490]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.02.15-09.30.06:731][490]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.15-09.30.06:837][490]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.02.15-09.30.06:906][491]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.15-09.30.22:994][ 40]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Content/Animations/Pandaboy/Panda_JumpLoop2.Panda_JumpLoop2
+[2018.02.15-09.30.22:994][ 40]LogAnimationCompression: Recompressing (AnimSequence /Game/Content/Animations/Pandaboy/Panda_JumpLoop2.Panda_JumpLoop2) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.02.15-09.30.44:770][845]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Content/Animations/Pandaboy/Panda_JumpUp2.Panda_JumpUp2
+[2018.02.15-09.30.44:770][845]LogAnimationCompression: Recompressing (AnimSequence /Game/Content/Animations/Pandaboy/Panda_JumpUp2.Panda_JumpUp2) using current/default (AnimCompress_BitwiseCompressOnly_8) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.02.15-09.30.50:046][131]BlueprintLog: New page: Compile panda_animation
+[2018.02.15-09.31.14:055][901]BlueprintLog: New page: Compile panda_animation
+[2018.02.15-09.31.15:196][932]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.15-09.31.15:220][932]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.31.15:220][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-09.31.15:220][932]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 6:31:15 AM)
+[2018.02.15-09.31.15:220][932]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.15-09.31.15:226][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006468s)
+[2018.02.15-09.31.15:227][932]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.15-09.31.15:227][932]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2018.02.15-09.31.15:228][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007646s)
+[2018.02.15-09.31.15:249][932]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.15-09.31.15:257][932]LogInit: FAudioDevice initialized.
+[2018.02.15-09.31.15:295][932]LogLoad: Game class is 'platformer_gamemode_C'
+[2018.02.15-09.31.15:298][932]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-20.01.15
+[2018.02.15-09.31.15:298][932]LogWorld: Bringing up level for play took: 0.002550
+[2018.02.15-09.31.15:300][932]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.231
+[2018.02.15-09.31.15:301][932]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.31.17:502][ 91]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.31.17:538][ 91]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.31.36:947][980]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Content/Animations/Pandaboy/Panda_JumpLand2.Panda_JumpLand2
+[2018.02.15-09.31.36:947][980]LogAnimationCompression: Recompressing (AnimSequence /Game/Content/Animations/Pandaboy/Panda_JumpLand2.Panda_JumpLand2) using current/default (AnimCompress_BitwiseCompressOnly_10) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.02.15-09.31.53:409][ 38]BlueprintLog: New page: Compile panda_animation
+[2018.02.15-09.32.01:543][612]BlueprintLog: New page: Compile panda_animation
+[2018.02.15-09.32.03:863][799]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.15-09.32.03:890][799]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.32.03:890][799]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-09.32.03:890][799]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 6:32:03 AM)
+[2018.02.15-09.32.03:890][799]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.15-09.32.03:896][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005833s)
+[2018.02.15-09.32.03:897][799]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.15-09.32.03:897][799]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2018.02.15-09.32.03:897][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006982s)
+[2018.02.15-09.32.03:919][799]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.15-09.32.03:927][799]LogInit: FAudioDevice initialized.
+[2018.02.15-09.32.03:957][799]LogLoad: Game class is 'platformer_gamemode_C'
+[2018.02.15-09.32.03:960][799]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-20.02.03
+[2018.02.15-09.32.03:960][799]LogWorld: Bringing up level for play took: 0.002124
+[2018.02.15-09.32.03:962][799]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.431
+[2018.02.15-09.32.03:962][799]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.32.28:986][797]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.32.29:021][797]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.32.30:383][905]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.02.15-09.32.30:663][905]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2018.02.15-09.32.47:334][ 44]BlueprintLog: New page: Compile panda_animation
+[2018.02.15-09.32.55:038][582]BlueprintLog: New page: Compile panda_animation
+[2018.02.15-09.33.08:576][490]BlueprintLog: New page: Compile panda_animation
+[2018.02.15-09.33.17:956][ 40]BlueprintLog: New page: Compile panda_animation
+[2018.02.15-09.33.25:147][522]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.15-09.33.25:178][522]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.33.25:178][522]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-09.33.25:179][522]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 6:33:25 AM)
+[2018.02.15-09.33.25:179][522]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.15-09.33.25:185][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006003s)
+[2018.02.15-09.33.25:185][522]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.15-09.33.25:186][522]LogPlayLevel: PIE: World Init took: (0.000844s)
+[2018.02.15-09.33.25:186][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007153s)
+[2018.02.15-09.33.25:209][522]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.15-09.33.25:216][522]LogInit: FAudioDevice initialized.
+[2018.02.15-09.33.25:252][522]LogLoad: Game class is 'platformer_gamemode_C'
+[2018.02.15-09.33.25:255][522]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-20.03.25
+[2018.02.15-09.33.25:255][522]LogWorld: Bringing up level for play took: 0.002225
+[2018.02.15-09.33.25:257][522]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.274
+[2018.02.15-09.33.25:257][522]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.33.45:741][973]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.33.45:774][973]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.33.46:628][ 59]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.15-09.33.46:651][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.33.46:652][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-09.33.46:652][ 59]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 6:33:46 AM)
+[2018.02.15-09.33.46:652][ 59]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.15-09.33.46:658][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006099s)
+[2018.02.15-09.33.46:659][ 59]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.15-09.33.46:659][ 59]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2018.02.15-09.33.46:659][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007154s)
+[2018.02.15-09.33.46:679][ 59]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.15-09.33.46:686][ 59]LogInit: FAudioDevice initialized.
+[2018.02.15-09.33.46:716][ 59]LogLoad: Game class is 'platformer_gamemode_C'
+[2018.02.15-09.33.46:719][ 59]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-20.03.46
+[2018.02.15-09.33.46:719][ 59]LogWorld: Bringing up level for play took: 0.002335
+[2018.02.15-09.33.46:721][ 59]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.81
+[2018.02.15-09.33.46:722][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.33.50:650][526]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.33.50:686][526]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.33.51:252][568]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.15-09.33.51:275][568]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.33.51:275][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-09.33.51:276][568]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 6:33:51 AM)
+[2018.02.15-09.33.51:276][568]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.15-09.33.51:281][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005793s)
+[2018.02.15-09.33.51:282][568]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.15-09.33.51:282][568]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2018.02.15-09.33.51:282][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006884s)
+[2018.02.15-09.33.51:302][568]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.15-09.33.51:309][568]LogInit: FAudioDevice initialized.
+[2018.02.15-09.33.51:343][568]LogLoad: Game class is 'platformer_gamemode_C'
+[2018.02.15-09.33.51:345][568]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-20.03.51
+[2018.02.15-09.33.51:346][568]LogWorld: Bringing up level for play took: 0.002145
+[2018.02.15-09.33.51:347][568]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.184
+[2018.02.15-09.33.51:348][568]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.33.59:018][484]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.33.59:053][484]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.33.59:839][556]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.15-09.33.59:866][556]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.33.59:866][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-09.33.59:866][556]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 6:33:59 AM)
+[2018.02.15-09.33.59:866][556]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.15-09.33.59:873][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006556s)
+[2018.02.15-09.33.59:874][556]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.15-09.33.59:874][556]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2018.02.15-09.33.59:874][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007563s)
+[2018.02.15-09.33.59:893][556]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.15-09.33.59:900][556]LogInit: FAudioDevice initialized.
+[2018.02.15-09.33.59:930][556]LogLoad: Game class is 'platformer_gamemode_C'
+[2018.02.15-09.33.59:932][556]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-20.03.59
+[2018.02.15-09.33.59:933][556]LogWorld: Bringing up level for play took: 0.002179
+[2018.02.15-09.33.59:935][556]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.403
+[2018.02.15-09.33.59:935][556]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.34.04:448][ 93]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.34.04:480][ 93]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.34.05:080][151]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.15-09.34.05:102][151]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.34.05:103][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-09.34.05:103][151]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 6:34:05 AM)
+[2018.02.15-09.34.05:103][151]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.15-09.34.05:109][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006552s)
+[2018.02.15-09.34.05:110][151]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.15-09.34.05:110][151]LogPlayLevel: PIE: World Init took: (0.000826s)
+[2018.02.15-09.34.05:111][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007735s)
+[2018.02.15-09.34.05:129][151]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.15-09.34.05:136][151]LogInit: FAudioDevice initialized.
+[2018.02.15-09.34.05:165][151]LogLoad: Game class is 'platformer_gamemode_C'
+[2018.02.15-09.34.05:167][151]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-20.04.05
+[2018.02.15-09.34.05:168][151]LogWorld: Bringing up level for play took: 0.002096
+[2018.02.15-09.34.05:170][151]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.362
+[2018.02.15-09.34.05:170][151]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.34.22:081][172]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.34.22:117][172]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.34.23:145][274]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.15-09.34.23:168][274]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.34.23:168][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-09.34.23:168][274]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 6:34:23 AM)
+[2018.02.15-09.34.23:168][274]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.15-09.34.23:174][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005974s)
+[2018.02.15-09.34.23:175][274]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.15-09.34.23:175][274]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2018.02.15-09.34.23:175][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007055s)
+[2018.02.15-09.34.23:193][274]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.15-09.34.23:201][274]LogInit: FAudioDevice initialized.
+[2018.02.15-09.34.23:232][274]LogLoad: Game class is 'platformer_gamemode_C'
+[2018.02.15-09.34.23:235][274]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-20.04.23
+[2018.02.15-09.34.23:235][274]LogWorld: Bringing up level for play took: 0.002319
+[2018.02.15-09.34.23:237][274]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.294
+[2018.02.15-09.34.23:237][274]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.34.35:762][771]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.34.35:794][771]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.34.37:530][926]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2018.02.15-09.34.37:806][926]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2018.02.15-09.34.43:062][299]BlueprintLog: New page: Compile panda_animation
+[2018.02.15-09.34.44:795][431]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.15-09.34.44:818][431]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.34.44:818][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-09.34.44:818][431]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 6:34:44 AM)
+[2018.02.15-09.34.44:818][431]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.15-09.34.44:824][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006052s)
+[2018.02.15-09.34.44:825][431]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.15-09.34.44:825][431]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2018.02.15-09.34.44:826][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007174s)
+[2018.02.15-09.34.44:847][431]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.15-09.34.44:854][431]LogInit: FAudioDevice initialized.
+[2018.02.15-09.34.44:884][431]LogLoad: Game class is 'platformer_gamemode_C'
+[2018.02.15-09.34.44:887][431]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-20.04.44
+[2018.02.15-09.34.44:887][431]LogWorld: Bringing up level for play took: 0.002448
+[2018.02.15-09.34.44:889][431]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.642
+[2018.02.15-09.34.44:890][431]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.34.58:685][ 80]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.34.58:719][ 80]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.34.59:610][159]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.15-09.34.59:633][159]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.34.59:633][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-09.34.59:633][159]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 6:34:59 AM)
+[2018.02.15-09.34.59:633][159]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.15-09.34.59:640][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006265s)
+[2018.02.15-09.34.59:640][159]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.15-09.34.59:641][159]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2018.02.15-09.34.59:641][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007407s)
+[2018.02.15-09.34.59:662][159]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.15-09.34.59:669][159]LogInit: FAudioDevice initialized.
+[2018.02.15-09.34.59:703][159]LogLoad: Game class is 'platformer_gamemode_C'
+[2018.02.15-09.34.59:705][159]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-20.04.59
+[2018.02.15-09.34.59:706][159]LogWorld: Bringing up level for play took: 0.002449
+[2018.02.15-09.34.59:708][159]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.177
+[2018.02.15-09.34.59:708][159]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.35.04:464][725]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.35.04:498][725]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.35.05:082][771]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.15-09.35.05:105][771]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.35.05:105][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-09.35.05:105][771]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 6:35:05 AM)
+[2018.02.15-09.35.05:105][771]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.15-09.35.05:111][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006091s)
+[2018.02.15-09.35.05:112][771]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.15-09.35.05:112][771]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2018.02.15-09.35.05:112][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007235s)
+[2018.02.15-09.35.05:132][771]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.15-09.35.05:140][771]LogInit: FAudioDevice initialized.
+[2018.02.15-09.35.05:174][771]LogLoad: Game class is 'platformer_gamemode_C'
+[2018.02.15-09.35.05:177][771]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-20.05.05
+[2018.02.15-09.35.05:177][771]LogWorld: Bringing up level for play took: 0.002125
+[2018.02.15-09.35.05:179][771]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.352
+[2018.02.15-09.35.05:179][771]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.35.31:590][932]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.35.31:623][932]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.35.32:902][ 67]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.15-09.35.32:925][ 67]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.35.32:925][ 67]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-09.35.32:925][ 67]PIE: New page: PIE session: Minimal_Default (Feb 16, 2018, 6:35:32 AM)
+[2018.02.15-09.35.32:925][ 67]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.15-09.35.32:931][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005777s)
+[2018.02.15-09.35.32:932][ 67]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.15-09.35.32:932][ 67]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2018.02.15-09.35.32:932][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006967s)
+[2018.02.15-09.35.32:953][ 67]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.15-09.35.32:960][ 67]LogInit: FAudioDevice initialized.
+[2018.02.15-09.35.32:992][ 67]LogLoad: Game class is 'platformer_gamemode_C'
+[2018.02.15-09.35.32:994][ 67]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.15-20.05.32
+[2018.02.15-09.35.32:994][ 67]LogWorld: Bringing up level for play took: 0.002130
+[2018.02.15-09.35.32:997][ 67]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.535
+[2018.02.15-09.35.32:997][ 67]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.35.44:201][406]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.35.44:234][406]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.15-09.35.48:941][764]LogSavePackage: Save=168.04ms
+[2018.02.15-09.35.48:941][764]LogSavePackage: Moving '../../../../../PandaProject/PandaProject/Saved/Minimal_DefaultB074DD55495AD0617AD0988502338DC5.tmp' to '../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.02.15-09.35.48:948][764]LogSavePackage: Display: Finished SavePackage ../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.02.15-09.35.48:995][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default_BuiltData" FILE="../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" SILENT=true
+[2018.02.15-09.35.49:053][764]LogSavePackage: Save=48.63ms
+[2018.02.15-09.35.49:053][764]LogSavePackage: Moving '../../../../../PandaProject/PandaProject/Saved/Minimal_Default_BuiltDataFFC52EA9461530A9DD7B41B3A9D84A49.tmp' to '../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.02.15-09.35.49:055][764]LogSavePackage: Display: Finished SavePackage ../../../../../PandaProject/PandaProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
